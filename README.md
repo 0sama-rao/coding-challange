@@ -41,6 +41,7 @@ REACT_APP_API_BASE_URL=http://localhost:1600/api
 Backend Setup:
 - cd backend
 - npm install
+- npm run dev         //to run the application
 
 ADD ENV:
 
@@ -49,7 +50,7 @@ DB_USER=root
 DB_PASSWORD=yourpassword
 DB_NAME=coding_challenge
 DB_PORT=3306
-PORT=5000
+PORT=1600
 
 TO RUN BACKEND TEST:
 
