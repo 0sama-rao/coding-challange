@@ -49,3 +49,6 @@ DB_PASSWORD=yourpassword
 DB_NAME=coding_challenge
 PORT=5000
 
+TO RUN BACKEND TEST:
+
+npm test
