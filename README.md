@@ -20,7 +20,8 @@ Prerequisites
     Node.js installed
     MySQL database running
     Git installed
-
+    SQL SERVER Installed
+    
 STEP 01:
 
 Clone the Repository
@@ -47,6 +48,7 @@ DB_HOST=localhost
 DB_USER=root
 DB_PASSWORD=yourpassword
 DB_NAME=coding_challenge
+DB_PORT=3306
 PORT=5000
 
 TO RUN BACKEND TEST:
