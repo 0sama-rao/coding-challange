@@ -15,10 +15,10 @@ const assetValidationRules: ValidationChain[] = [
     .notEmpty()
     .withMessage(validationMessages.value.notEmpty),
   body('currency')
-    .optional() // Currency is optional
+    .optional() 
     .isString()
     .withMessage(validationMessages.currency.isString)
-    .isIn(['EUR', 'USD', 'GBP', 'JPY', 'AUD']) // Allowed currencies
+    .isIn(['EUR', 'USD', 'GBP', 'JPY', 'AUD'])
     .withMessage(validationMessages.currency.isIn),
 ];
 
