@@ -28,3 +28,8 @@ const startServer = async () => {
 };
 
 export { app, startServer };
+
+//Running server only when in test enviroment
+if (process.env.NODE_ENV !== 'test') {
+  startServer();
+}
