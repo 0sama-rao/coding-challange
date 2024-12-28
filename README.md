@@ -26,7 +26,7 @@ STEP 01:
 Clone the Repository
 
 git clone https://github.com/0sama-rao/coding-challange.git
-cd coding-challange
+- cd coding-challange
 
 Frontend Setup:
 - cd frontend
