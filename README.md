@@ -45,12 +45,12 @@ Backend Setup:
 
 ADD ENV:
 
-DB_HOST=localhost
-DB_USER=root
-DB_PASSWORD=yourpassword
-DB_NAME=coding_challenge
-DB_PORT=3306
-PORT=1600
+- DB_HOST=localhost
+- DB_USER=root
+- DB_PASSWORD=yourpassword
+- DB_NAME=coding_challenge
+- DB_PORT=3306
+- PORT=1600
 
 TO RUN BACKEND TEST:
 
