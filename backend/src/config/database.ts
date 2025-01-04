@@ -19,7 +19,7 @@ const sequelize = new Sequelize(
     host: process.env.DB_HOST || 'localhost',
     port: parseInt(process.env.DB_PORT || '3306', 10),
     dialect: 'mysql',
-    // Logs SQL queries for debugging
+    //Logs SQL queries for debugging
     logging: console.log, 
   }
 );
